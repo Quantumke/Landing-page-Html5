@@ -17,11 +17,12 @@ filter: brightness(30%);
 }
 #content{
     position: absolute;
-    top: 50px;
-    left: 200px;
-    padding: 30px;
+    top: 0px;
+    left: 00px;
+    padding: 0px;
     color: white;
-
+    font-family: AC Filmstrip;
+    font-size: 70px;
 }
 
 #header-container{
