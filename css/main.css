@@ -23,6 +23,19 @@ filter: brightness(30%);
     font-size: 70px;
 }
 
+
+.social icons{
+     position: absolute;
+    left: 220px;
+    top: 360px;
+    color: white;
+
+    font-size: 50px;
+  font-family: AC Filmstrip;
+}
+
+
+
 #header-container{
     height: 694.5px;
     overflow: hidden;
@@ -103,15 +116,12 @@ position: absolute;
     top: 360px;
     color: white;
 
-    font-size: 50px;
-  font-family: AC Filmstrip;
+    font-size: 90px;
+  font-family: Ladylike BB;
 }
 
 
 }
-
-
-
 
 
 
