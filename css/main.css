@@ -58,14 +58,35 @@ position: absolute;
     font-size: 60px;
 
 }
+.site-title-a-b
+{
+position: absolute;
+    left: 320px;
+    top: 160px;
+    color: white;
+    font-family: AC Filmstrip;
+    font-size: 60px;
+
+}
+
+.site-title-a-c
+{
+position: absolute;
+    left: 520px;
+    top: 160px;
+    color: white;
+    font-family: AC Filmstrip;
+    font-size: 60px;
+
+}
 
 .css-typing
 {
     width: 30em;
     white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 5s steps(50, end);
-    animation: type 5s steps(50, end);
+    -webkit-animation:  type 20s steps(200, end);
+    animation: type 20s steps(200, end);
 }
 
 @keyframes type{
@@ -74,6 +95,19 @@ position: absolute;
 
 @-webkit-keyframes type{
     from { width: 0; }
+}
+
+.site-slogan {
+    position: absolute;
+    left: 220px;
+    top: 360px;
+    color: white;
+
+    font-size: 50px;
+  font-family: AC Filmstrip;
+}
+
+
 }
 
 
