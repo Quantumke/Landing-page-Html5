@@ -28,16 +28,53 @@ filter: brightness(30%);
     overflow: hidden;
 
 }
-#site-title{
-     position: absolute;
+.site-title {
+position: absolute;
+    left: 120px;
     top: 100px;
-    left: 50px;
-    padding: 30px;
     color: white;
     font-family: AC Filmstrip;
     font-size: 60px;
+
 }
 
+.site-title-a {
+position: absolute;
+    left: 120px;
+    top: 160px;
+    color: white;
+    font-family: AC Filmstrip;
+    font-size: 60px;
+
+}
+
+
+.site-title-b {
+position: absolute;
+    left: 120px;
+    top: 220px;
+    color: white;
+    font-family: AC Filmstrip;
+    font-size: 60px;
+
+}
+
+.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
 
 
 
