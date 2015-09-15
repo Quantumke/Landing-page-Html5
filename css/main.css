@@ -110,6 +110,39 @@ position: absolute;
     from { width: 0; }
 }
 
+	.sidecontentpullout {
+			background-color: white;
+			color: black;
+			padding: 8px 6px;
+        top: 40px;
+			-moz-border-radius-bottomleft: 1em;
+			-moz-border-radius-topleft: 1em;
+			-webkit-border-bottom-left-radius: 1em;
+			-webkit-border-top-left-radius: 1em;
+			border-bottom-left-radius: 1em;
+			border-top-left-radius: 1em;
+		}
+
+		.sidecontentpullout:hover {
+			background-color: #444444;
+			color: White;
+		}
+
+		.sidecontent {
+			background-color: Black;
+			color: White;
+			-moz-border-radius-bottomleft: 1em;
+			-webkit-border-bottom-left-radius: 1em;
+			border-bottom-left-radius: 1em;
+		}
+
+		.sidecontent > div > div {
+			padding-left: 10px;
+			padding-right: 40px;
+		}
+
+
+
 .site-slogan {
     position: absolute;
     left: 220px;
