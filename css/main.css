@@ -130,7 +130,7 @@ position: fixed;
 			background-color: white;
 			color: black;
             width: 40px;
-            height: 300px;
+
 			-moz-border-radius-bottomleft: 1em;
 			-webkit-border-bottom-left-radius: 1em;
 			border-bottom-left-radius: 1em;
@@ -159,7 +159,16 @@ position: fixed;
 }
 
 
+#slide-header{
+font-size: small;
+font-weight: 100;
+text-transform: uppercase;
+color: white;
 
+
+
+
+}
 
 
 
