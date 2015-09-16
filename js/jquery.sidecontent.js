@@ -146,7 +146,7 @@
 
 			// Hide the slider
 			$("#" + sliderId).css({
-				position: "absolute",
+				position: "fixed",
 				overflow: "hidden",
 				top: "55px",
 				width: "0px",
