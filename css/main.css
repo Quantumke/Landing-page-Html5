@@ -238,7 +238,7 @@ margin: 4px 16px;
     width: 100%;
 }
 .span-right{
-    background: url(../img/part-2-right.jpg);
+    background: url(../img/hd-wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
@@ -246,8 +246,52 @@ margin: 4px 16px;
     width:50%;
 }
 .span-left{
-    background-color: green;
-    height: 200px;
+    background-color: white;
+    height: 300px;
       float: left;
     width:50%;
+
+}
+.stars-about{
+    width: 25%;
+    height: 19%;
+    position: absolute;
+    left: 5px;
+    background-color: #1E1A3B;
+    color: white;
+    overflow: hidden;
+    text-align: justify;
+    font-family: queer;
+    font-size:15px;
+    letter-spacing: 0;
+    overflow: hidden;
+
+
+}
+.text-right-stars{
+    width: 24%;
+    height: 20%;
+        position: absolute;
+    left: 340px;
+   font-family: queer;
+    font-size: 11px;
+    text-align: justify;
+
+}
+.text-bottom-stars{
+    position: absolute;
+    height: 36%;
+    left: 5px;
+
+    width: 49.5%;
+
+    top: 874px;
+}
+
+.odd {
+   background-color: white;
+    color: red;
+}
+.even  {
+     background-color: red
 }
