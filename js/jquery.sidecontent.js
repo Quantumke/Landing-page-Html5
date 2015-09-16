@@ -171,7 +171,8 @@
 				top: totalPullOutHeight + "px",
 				zIndex: "1000",
 				cursor: "pointer",
-				opacity: config.opacity
+				opacity: config.opacity,
+
 			})
 
 			$("#" + sliderId + "_pullout").live("click", ToggleSlider);
