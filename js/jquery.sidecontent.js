@@ -173,6 +173,7 @@
 				cursor: "pointer",
 				opacity: config.opacity,
 
+
 			})
 
 			$("#" + sliderId + "_pullout").live("click", ToggleSlider);
