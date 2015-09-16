@@ -1,8 +1,14 @@
 
-
 /* ==========================================================================
    Benson custom styles
    ========================================================================== */
+html,body
+{
+
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 #bg{
 width: 100%;
@@ -112,10 +118,10 @@ position: absolute;
 }
 
 	.sidecontentpullout {
-			background-color: white;
-			color: black;
+			background-color: #640866;
+			color: white;
 			padding: 8px 6px;
-position: fixed;
+
            top: 100px;
             width: 40px
 
@@ -226,4 +232,22 @@ margin: 4px 16px;
 }
 .btn btn-danger.hover{
     background-color: aqua;
+}
+.body-about{
+
+    width: 100%;
+}
+.span-right{
+    background: url(../img/part-2-right.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    float: right;
+    width:50%;
+}
+.span-left{
+    background-color: green;
+    height: 200px;
+      float: left;
+    width:50%;
 }
