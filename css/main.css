@@ -59,6 +59,7 @@ position: absolute;
     font-family: AC Filmstrip;
     font-size: 60px;
 
+
 }
 
 
@@ -170,8 +171,11 @@ color: white;
 
 }
 
-
-
+.btn{
+    width: 20px;
+    height: 10px;
+    background: red;
+}
 
 
 
