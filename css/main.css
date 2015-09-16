@@ -295,3 +295,41 @@ margin: 4px 16px;
 .even  {
      background-color: red
 }
+.comicon{
+
+
+    height: 20%;
+        position: absolute;
+    left: 700px;
+   font-family:Arcade;
+
+    text-align: justify;
+  color: white;
+    text-transform: uppercase;
+}
+.comicon-event{
+
+    width: 200px;
+    height: 20%;
+   position: absolute;
+    left: 700px;
+   font-family:Arcade;
+     top: 800px;
+    text-align: justify;
+  color: white;
+    text-transform: uppercase;
+    background: green;
+}
+.comicon-event-description{
+
+    width: 200px;
+    height: 20%;
+   position: absolute;
+    left: 1100px;
+   font-family:Arcade;
+     top: 800px;
+    text-align: justify;
+  color: white;
+    text-transform: uppercase;
+    background: red;
+}
