@@ -114,7 +114,9 @@ position: absolute;
 			background-color: white;
 			color: black;
 			padding: 8px 6px;
-        top: 40px;
+
+        top: 100px;
+        width: 40px
 			-moz-border-radius-bottomleft: 1em;
 			-moz-border-radius-topleft: 1em;
 			-webkit-border-bottom-left-radius: 1em;
@@ -131,6 +133,7 @@ position: absolute;
 		.sidecontent {
 			background-color: Black;
 			color: White;
+            width: 40px;
 			-moz-border-radius-bottomleft: 1em;
 			-webkit-border-bottom-left-radius: 1em;
 			border-bottom-left-radius: 1em;
