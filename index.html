@@ -53,7 +53,7 @@
                 <i class="fa fa-google-plus"></i>
 
    </span>
-<div class="side" title="More">
+<div class="side wow pulse" title="More">
 <h2 style="text-transform:uppercase; font-size:small; color:purple;  font-weight:300;font-family: Terminator Real NFI;"> Start your i-max expirience</h2><hr>
 
 <p style="text-transform:uppercase; font-size:small; color:purple;  font-weight:300;font-family: Terminator Real NFI;">Call us 0721799583</p>
@@ -80,9 +80,9 @@ Book a ticket
 
 
         </div>
-<div class="body-about">
-<span class="span-right"></span>
-<div class=" span-left">
+<div class="body-about  ">
+<span class="span-right wow slideInRight" data-wow-delay="2s "></span>
+<div class=" span-left   ">
 
     <span class="stars-about">
   Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra lorem sed nec mus rutrum vel, per quis libero. Faucibus libero pellentesque donec, posuere ipsum arcu vestibulum, suspendisse duis neque sem, ornare tempor mus. Arcu magna id. Torquent quam suspendisse,
@@ -122,7 +122,8 @@ Book a ticket
     </span>
 
     </div>
- <span class="comicon">
+
+ <span class="comicon " >
 <p style="font-size:50px;">COMICON 2015 in KENYA!!</p>
 </span>
     <span class="comicon-event" style="font-size:15px;">
@@ -148,7 +149,7 @@ Book a ticket
         </p>
 
     </span>
-<span class="comicon-event-book">Book </span>
+<span class="comicon-event-book book-comicon">Book </span>
 
 
 
@@ -156,6 +157,30 @@ Book a ticket
 </div>
 
 
+        <div class="overlay"></div>
+    <div class="popup-comicon">
+         <button class="close-comicon" style="color:red"><i class="fa fa-times"></i></button><br> <br>
+        <input type="text" class="text-popup-comicon" name="name" placeholder="Enter Your name" /> <br> <br> <br>
+         <input type="text" class="text-popup-comicon" name="email" placeholder="Enter Your Email" /> <br> <br> <br>
+         <input type="password" class="text-popup-comicon" name="why" placeholder="Select Secret word" /> <br><br>
+         <button type="button" style="border:none" class="btn btn-default">Send</button>
+
+
+        </div></div>
+<div class="events-custom span_1_of_1">
+<div class="events-list">
+    <span class="event-header"></span>
+    <span class="event-body"></span>
+    <span class="event-footer"></span>
+
+
+    </div>
+
+
+
+
+
+</div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
@@ -163,6 +188,19 @@ Book a ticket
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+<script src="js/wow.js"></script>
+
+<script>
+wow = new WOW(
+{
+boxClass:     'wow',
+animateClass: 'animated',
+offset:       100
+}
+);
+wow.init();
+</script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
