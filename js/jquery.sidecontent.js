@@ -167,8 +167,8 @@
 
 			// Set up the pullout
 			$("#" + sliderId + "_pullout").css({
-				position: "absolute",
-				top: totalPullOutHeight + "px",
+				position: "fixed",
+				top: totalPullOutHeight + "5px",
 				zIndex: "1000",
 				cursor: "pointer",
 				opacity: config.opacity,
