@@ -16,7 +16,7 @@ filter: brightness(30%);
 #content{
     position: absolute;
     top: 0px;
-    left: 00px;
+    left: 120px;
     padding: 0px;
     color: white;
     font-family: AC Filmstrip;
@@ -114,16 +114,12 @@ position: absolute;
 			background-color: white;
 			color: black;
 			padding: 8px 6px;
+position: fixed;
+           top: 100px;
+            width: 40px
 
-        top: 100px;
-        width: 40px
-			-moz-border-radius-bottomleft: 1em;
-			-moz-border-radius-topleft: 1em;
-			-webkit-border-bottom-left-radius: 1em;
-			-webkit-border-top-left-radius: 1em;
-			border-bottom-left-radius: 1em;
-			border-top-left-radius: 1em;
 		}
+
 
 		.sidecontentpullout:hover {
 			background-color: #444444;
@@ -131,9 +127,10 @@ position: absolute;
 		}
 
 		.sidecontent {
-			background-color: Black;
-			color: White;
+			background-color: white;
+			color: black;
             width: 40px;
+            height: 300px;
 			-moz-border-radius-bottomleft: 1em;
 			-webkit-border-bottom-left-radius: 1em;
 			border-bottom-left-radius: 1em;
@@ -142,6 +139,8 @@ position: absolute;
 		.sidecontent > div > div {
 			padding-left: 10px;
 			padding-right: 40px;
+            top: 50px;
+
 		}
 
 
