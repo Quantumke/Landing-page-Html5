@@ -148,7 +148,7 @@
 			$("#" + sliderId).css({
 				position: "absolute",
 				overflow: "hidden",
-				top: "0",
+				top: "55px",
 				width: "0px",
 				zIndex: "1",
 				opacity: config.opacity
