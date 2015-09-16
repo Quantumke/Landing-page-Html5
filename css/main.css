@@ -359,3 +359,40 @@ margin: 4px 16px;
      border: 2px red solid;
 
 }
+
+
+.popup-comicon {
+    position:absolute;
+
+    width:600px;
+    height:200px;
+    right:50px;
+    top:890px;
+    z-index: 1;
+    margin:-100px 0 0 -100px;
+    display:none;
+    background: url(../img/banner-pop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-border-radius-bottomleft: 1em;
+			-webkit-border-bottom-left-radius: 1em;
+			border-bottom-left-radius: 1em;
+     -moz-border-radius-bottomright: 1em;
+			-webkit-border-bottom-right-radius: 1em;
+			border-bottom-right-radius: 1em;
+
+}
+
+.popup-comicon:focus {
+   background: black;
+}
+
+.text-popup-comicon{
+    float: right;
+    right: 20px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px #FFF solid;
+    color: red;
+    font-size: 15px;
+}
