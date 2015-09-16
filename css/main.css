@@ -313,12 +313,13 @@ margin: 4px 16px;
     height: 20%;
    position: absolute;
     left: 700px;
-   font-family:Arcade;
+   font-family: "comic sans ms";
      top: 800px;
     text-align: justify;
   color: white;
     text-transform: uppercase;
-    background: green;
+    text-align: center;
+
 }
 .comicon-event-description{
 
@@ -326,10 +327,35 @@ margin: 4px 16px;
     height: 20%;
    position: absolute;
     left: 1100px;
-   font-family:Arcade;
+   font-family:comic sans ms;
      top: 800px;
     text-align: justify;
   color: white;
     text-transform: uppercase;
+
+}
+
+.comicon-event-book{
+
+    width: 200px;
+    height: 40px;
+   position: absolute;
+    left: 900px;
+   font-family:comic sans ms;
+     top: 950px;
+    text-align: justify;
+  color: white;
+    text-transform: uppercase;
+    border: 2px red solid;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
     background: red;
+
+}
+.comicon-event-book:hover{
+    background-color: transparent;
+    color: red;
+     border: 2px red solid;
+
 }
