@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -23,9 +23,24 @@
 <script src="http://use.edgefonts.net/unifrakturcook:n7:all.js"></script>
         <script src="http://use.edgefonts.net/viga:n4:all.js"></script>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        
     </head>
     <body>
-
+        <div class="loading-bar"></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function()
+{
+    $("body").addClass("app-loading");
+    $.get("some-test-page.html", function(data)
+    {
+        $("body").removeClass("app-loading");
+    });
+})
+</script>
+    
+    
+    
          <div id="header-container">
          <video id="bg" src="img/background.mp4" autoplay="true" loop="true" muted="true" ></video></div>
         <div id="content">
@@ -80,53 +95,15 @@ Book a ticket
 
 
         </div>
-<div class="body-about  ">
-<span class="span-right wow slideInRight" data-wow-delay="2s "></span>
-<div class=" span-left   ">
-
-    <span class="stars-about">
-  Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra lorem sed nec mus rutrum vel, per quis libero. Faucibus libero pellentesque donec, posuere ipsum arcu vestibulum, suspendisse duis neque sem, ornare tempor mus. Arcu magna id. Torquent quam suspendisse,
-    </span>
-
-    <span class="text-right-stars">
-      <span class=" odd">  Lorem ipsum dolor sit amet ultricies molestie ut facilis</span>
-
-    <span class="even">  Lorem ipsum dolor sit amet ultricies molestie ut facilis</span>
-      <span class=" odd">  Lorem ipsum dolor sit amet ultricies molestie ut facilis</span>
-
-    <span class="even">  Lorem ipsum dolor sit amet ultricies molestie ut facilis</span>
-      <span class=" odd">  Lorem ipsum dolor sit amet ultricies molestie ut facilis</span>
-
-    <span class="even">  Lorem ipsum dolor sit amet ultricies molestie ut facilis</span>
-          <span class=" odd">  Lorem ipsum dolor sit amet ultricies molestie ut facilis</span>
-
-    <span class="even">  Lorem ipsum dolor sit amet ultricies molestie ut facilis</span>
-
-    </span>
+<div class=" container-custom  ">
 
 
-    <span class="text-bottom-stars">
-      <span class=" odd"> Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra loremsed nec mus rutrum vel,</span>
-
-    <span class="even">  Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra lorem sed nec mus rutrum vel,</span>
-      <span class=" odd"> Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra lorem sed nec mus rutrum vel,</span>
-
-    <span class="even">  Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra loremsed nec mus rutrum vel,</span>
-      <span class=" odd"> Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra loremsed nec mus rutrum vel,</span>
-
-    <span class="even"> Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra loremsed nec mus rutrum vel,</span>
-          <span class=" odd"> Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra loremsed nec mus rutrum vel,</span>
-
-    <span class="even"> Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra loremsed nec mus rutrum vel,</span>
-
-    </span>
-
-    </div>
-
+<div class="span-right ">
  <span class="comicon " >
 <p style="font-size:50px;">COMICON 2015 in KENYA!!</p>
 </span>
-    <span class="comicon-event" style="font-size:15px;">
+   
+ <span class="comicon-event span_4_of_12" style="font-size:15px;">
    <p> KENMICON!</p>
         <p>
         <i class="fa fa-rocket"></i>
@@ -134,53 +111,55 @@ Book a ticket
         </p>
         <p style="text-align:justify">
          Lorem ipsum dolor sitamet, ultricies molestie ut facilisi at dolor nec, viverra
-
+ Lorem ipsum dolor sitamet, ultricies molestie ut facilisi at dolor nec, viverra
+  Lorem ipsum dolor sitamet, ultricies molestie ut facilisi at dolor nec, viverra
+   Lorem ipsum dolor sitamet, ultricies molestie ut facilisi at dolor nec, viverra
         </p>
-    </span>
-    <span class="comicon-event-description"style="font-size:15px;">
- <p> Attendance</p>
-        <p>
-       <i class="fa fa-pied-piper-alt"></i>
+  
+    <span class="comicon-event-book">Book</span>
+        
+ 
 
-        </p>
-        <p style="text-align:justify">
-         Lorem ipsum dolor sit amet, ultricies molestie ut facilisi at dolor nec, viverra
-
-        </p>
 
     </span>
-<span class="comicon-event-book book-comicon">Book </span>
-
-
-
-
-</div>
-
-
-        <div class="overlay"></div>
-    <div class="popup-comicon">
-         <button class="close-comicon" style="color:red"><i class="fa fa-times"></i></button><br> <br>
-        <input type="text" class="text-popup-comicon" name="name" placeholder="Enter Your name" /> <br> <br> <br>
-         <input type="text" class="text-popup-comicon" name="email" placeholder="Enter Your Email" /> <br> <br> <br>
-         <input type="password" class="text-popup-comicon" name="why" placeholder="Select Secret word" /> <br><br>
-         <button type="button" style="border:none" class="btn btn-default">Send</button>
-
-
-        </div></div>
-<div class="events-custom span_1_of_1">
-<div class="events-list">
-    <span class="event-header"></span>
-    <span class="event-body"></span>
-    <span class="event-footer"></span>
 
 
     </div>
+    <div class="span-left">
+        
+      <span class="comicon " >
+<p style="font-size:50px; color: black; ">COMICON 2015 in KENYA!!</p>
+</span>
+   
+ <span class="comicon-event span_4_of_12" style="font-size:15px; color: black">
+   <p> KENMICON!</p>
+        <p>
+        <i class="fa fa-rocket"></i>
 
-
-
+        </p>
+        <p style="text-align:justify; margin-left:20px; margin-right: 20px;">
+         Lorem ipsum dolor sitamet, ultricies molestie ut facilisi at dolor nec, viverra
+ Lorem ipsum dolor sitamet, ultricies molestie ut facilisi at dolor nec, viverra
+  Lorem ipsum dolor sitamet, ultricies molestie ut facilisi at dolor nec, viverra
+   Lorem ipsum dolor sitamet, ultricies molestie ut facilisi at dolor nec, viverra
+        </p>
+  
+    <span class="comicon-event-book">Book</span>   
+        
+        
+    </div>
 
 
 </div>
+    <div class="events-listed">
+        
+        
+        
+        
+        
+        
+    </div>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
