@@ -31,18 +31,46 @@
 <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>     
     </head>
     <body>
-        <div class="loading-bar"></div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>
-$(function()
-{
-    $("body").addClass("app-loading");
-    $.get("some-test-page.html", function(data)
-    {
-        $("body").removeClass("app-loading");
-    });
-})
-</script>
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+       <style type="text/css">
+* html #exestylepopupdiv {position:absolute;}
+#exestylepopupdiv {display:block; top:0px; left:0px; width:100%; height:100%; position:fixed; background-image:url('https://lh3.googleusercontent.com/-rUv4L_9nz-8/T9sfSSJaZNI/AAAAAAAACf0/ETEgFKt-rR4/s128/exeideasopacity0.5.png');margin:0; overflow-y:auto;z-index:999999;}
+#exestylepopup {background-color: #fff; overflow:none;z-index:999999;}
+.exestylepopup {width:400px; height:420px; position:fixed; top:45%; left:50%; margin-top:-210px; margin-left:-200px; border: 10px solid #999; padding: 20px;z-index:999999;}
+.exe-title {background: #fff;color: #000;font-size: 10px !important;font-weight:bold;margin:2px 0;border:1px solid #ddd;padding:5px;line-height:12px; font-family:arial !important;}
+</style>
+<!--[if lte IE 6]>
+<style type="text/css">
+/*<![CDATA[*/
+html {overflow-x:auto; overflow-y:hidden;}
+/*]]>*/
+</style>
+<![endif]-->
+<div id="exestylepopupdiv">
+<div id="exestylepopup" class="exestylepopup">
+<center><h3 class="exe-title">Like Ben on Facebook Or Follow us on twitter<br/><a href="https://twitter.com/bensonmburu" class="twitter-follow-button" data-show-count="true">Follow @bensohmburu</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></br></br>
+<a href="https://twitter.com/bensohmburu" class="twitter-follow-button" data-show-count="true">Follow @bensohmburu</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	 
+<script src="https://facebook-and-twitter-button.googlecode.com/svn/twitter.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</h3></center>
+<center>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fbensoh1.mburu&amp;width=300&amp;colorscheme=light&amp;show_faces=true&amp;border_color=%23ffffff&amp;stream=false&amp;header=false&amp;height=258" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:258px;" allowtransparency="true"></iframe>
+</center>
+<br />
+<center style=" float:right; margin-right:35px; font-size:9px;" >  <a style=" font-size:9px; color:#3B78CD; text-decoration:none;" href="http://www.exeideas.com"></a></center>
+<center style=" float:left; margin-left:35px; font-size:9px;cursor:pointer;" ><a style=" font-size:9px; color:#3B78CD; text-decoration:none;" onmouseup="document.getElementById('exestylepopupdiv').style.display='none'">Skip To Continue</a></center>
+</div>
+</div>
     
     
     
@@ -359,25 +387,29 @@ Book a ticket
       <div class="row"> 
         <!-- Start Footer Widgets -->
         <div class="col-md-4 col-sm-4 widget footer-widget">
-          <h4 class="footer-widget-title">About our Church</h4>
-          <img src="images/logo.png" alt="Logo">
-          <div class="spacer-20"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis consectetur adipiscing elit. Nulla convallis egestas rhoncus</p>
+          <h4 class="footer-widget-title">ON Facebook</h4>
+          <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
         </div>
         <div class="col-md-4 col-sm-4 widget footer-widget">
-          <h4 class="footer-widget-title">Blogroll</h4>
-          <ul>
-            <li><a href="index-2.html">Church Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="events.html">All Events</a></li>
-            <li><a href="sermons.html">Sermons Archive</a></li>
-            <li><a href="blog-masonry.html">Our Blog</a></li>
-          </ul>
+          <h4 class="footer-widget-title">Twitter</h4>
+                     <a class="twitter-timeline"  href="https://twitter.com/bensohmburu" data-widget-id="644793983265316864">Tweets by @bensohmburu</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
         </div>
         <div class="col-md-4 col-sm-4 widget footer-widget">
-          <h4 class="footer-widget-title">Our Church on twitter</h4>
-          <ul class="twitter-widget">
-          </ul>
+          <h4 class="footer-widget-title">On Google</h4>
+        <!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="g-person" data-href="//plus.google.com/u/0/114389956002788926986" data-rel="author"></div>
         </div>
       </div>
     </div>
@@ -386,7 +418,7 @@ Book a ticket
     <div class="container">
       <div class="row">
         <div class="copyrights-col-left col-md-6 col-sm-6">
-          <p>&copy; 2014 NativeChurch. All Rights Reserved</p>
+          <p>&copy; 2015 Benson Mburu. </p>
         </div>
         <div class="copyrights-col-right col-md-6 col-sm-6">
           <div class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-youtube"></i></a> <a href="#"><i class="fa fa-rss"></i></a> </div>
