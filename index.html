@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
-        <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+        <script src='https://cdn.firebase.com/js/client/2.2.9/firebase.js'></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
@@ -125,10 +125,10 @@ Book a ticket
     <div class="cover"></div>
     <div class="popup">
          <button class="close" style="color:white"><i class="fa fa-times"></i></button><br> <br>
-        <input type="text" class="text-popup" name="name" placeholder="Enter Your name" /> <br> <br> <br>
-         <input type="text" class="text-popup" name="email" placeholder="Enter Your Email" /> <br> <br> <br>
-         <input type="text" class="text-popup" name="why" placeholder="Enter Your Location" /> <br><br>
-         <button type="button" style="border:none" class="btn btn-danger">Send</button>
+        <input type="text" class="text-popup" name="name" id='name' placeholder="Enter Your name" /> <br> <br> <br>
+         <input type="text" class="text-popup" name="email" id='email' placeholder="Enter Your Email" /> <br> <br> <br>
+         <input type="text" class="text-popup" name="why" id='location' placeholder="Enter Your Location" /> <br><br>
+         <button type="button" style="border:none" id='send' class="btn btn-danger">Send</button>
 
 
         </div>
@@ -428,8 +428,21 @@ Book a ticket
       </div>
     </div>
   </footer>
-          
-       
+          <script>
+      var name =document.getElementById('name'),
+      name=document.getElementById('name'),
+      send=document.getElementById('send'),
+      rootRef=new Firebase ('https://wp77i27593b.firebaseio-demo.com/'),
+      currentMessageRef=rootRef.child('currentMessage'),
+      send.addEventListener('click', function()
+      {
+          currentMessageRef.set(name.value);
+          name.value='';
+      }
+            
+            )
+      
+        
     
 <script src="js/jquery.countdown.min.js"></script> 
 <script src="js/jquery.countdown.js"></script>
