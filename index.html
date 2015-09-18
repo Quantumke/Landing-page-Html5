@@ -122,15 +122,17 @@ Book a ticket
 
 
         </div>
+    <div class="form-group">
     <div class="cover"></div>
     <div class="popup">
          <button class="close" style="color:white"><i class="fa fa-times"></i></button><br> <br>
-        <input type="text" class="text-popup" name="name" id='name' placeholder="Enter Your name" /> <br> <br> <br>
-         <input type="text" class="text-popup" name="email" id='email' placeholder="Enter Your Email" /> <br> <br> <br>
-         <input type="text" class="text-popup" name="why" id='location' placeholder="Enter Your Location" /> <br><br>
-         <button type="button" style="border:none" id='send' class="btn btn-danger">Send</button>
+         <div class="name">
+        <input type="text" class="textbox"   placeholder="Enter Your name" /> </div<br> <br> <br>
+         <input type="text" class="text-popup-a" name="email" placeholder="Enter Your Email" /> <br> <br> <br>
+         <input type="text" class="text-popup-b" name="why"  placeholder="Enter Your Location" /> <br><br>
+         <button type="button" style="border:none"  class="btn btn-danger">Send</button>
 
-
+    </div>
         </div>
     <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
     <div class="container-custom">
@@ -428,21 +430,35 @@ Book a ticket
       </div>
     </div>
   </footer>
-          <script>
-      var name =document.getElementById('name'),
-      name=document.getElementById('name'),
-      send=document.getElementById('send'),
-      rootRef=new Firebase ('https://wp77i27593b.firebaseio-demo.com/'),
-      currentMessageRef=rootRef.child('currentMessage'),
-      send.addEventListener('click', function()
-      {
-          currentMessageRef.set(name.value);
-          name.value='';
-      }
-            
-            )
-      
-        
+          <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+<script>
+/*
+Tutorial page:
+https://www.firebase.com/tutorial/#session/eltnipxxw3n
+
+Testing Firebase for the first time :)
+*/
+
+var myDataRef = new Firebase('https://eltnipxxw3n.firebaseio-demo.com/'); //Get a reference to my Firebase "database"/"data store"
+var textboxRef = myDataRef.child('textbox'); //Get a reference to the "textbox" child
+var $textbox = $('#textbox'); //Saves a referenve to the textarea element using jQuery
+
+//When anything changes (added, removed, updated) in the "textbox" child in the database
+textboxRef.on('value', function(snapshot) {
+  console.log("From Firebase:", snapshot.val());
+  $textbox.val(snapshot.val().text); //Set the value of the textarea to the value returned by Firebase (specifically the "text" property of the "textbox" child)
+});
+
+//When any key is released while the textarea is in focus
+$textbox.keyup(function() {
+  //Updates the properties and values in the database child called "textbox" with the object provided. The "set" function is used instead of the "update" function so that if the database child "textbox" of its properties are removed, this will create it as well as update it
+  textboxRef.set({
+    text: $textbox.val()
+  });
+});
+</script>
     
 <script src="js/jquery.countdown.min.js"></script> 
 <script src="js/jquery.countdown.js"></script>

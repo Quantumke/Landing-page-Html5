@@ -227,7 +227,7 @@ margin: 4px 16px;
     display:none;
     position:fixed;
 }
-.text-popup{
+#text-popup{
     float: right;
     right: 20px;
     width: 100%;
@@ -235,6 +235,24 @@ margin: 4px 16px;
     border: 2px #FFF solid;
     color: #6C066D;
 }
+
+#text-popup-b{
+    float: right;
+    right: 20px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px #FFF solid;
+    color: #6C066D;
+}
+#text-popup-c{
+    float: right;
+    right: 20px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px #FFF solid;
+    color: #6C066D;
+}
+
 .btn btn-danger.hover{
     background-color: aqua;
 }
