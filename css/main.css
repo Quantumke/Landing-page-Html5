@@ -162,12 +162,12 @@ position: absolute;
 
 .site-slogan {
     position: absolute;
-    left: 220px;
+    left: 120px;
     top: 360px;
     color: white;
 
-    font-size: 90px;
-  font-family: Ladylike BB;
+    font-size: 65px;
+  font-family: AC Filmstrip;
 }
 
 
@@ -236,13 +236,13 @@ margin: 4px 16px;
     color: #6C066D;
 }
 
-#text-popup-b{
+#textbox{
     float: right;
     right: 20px;
     width: 100%;
     background-color: transparent;
-    border: 2px #FFF solid;
-    color: #6C066D;
+    border: 2px #6C066D solid;
+    color: #fff;
 }
 #text-popup-c{
     float: right;
